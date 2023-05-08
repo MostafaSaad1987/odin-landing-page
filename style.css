@@ -1,4 +1,4 @@
-body{
+body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -6,59 +6,96 @@ body{
     margin: 0;
 }
 
-.nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 36px;
+.header {
+    background-color: #1F2937;
 }
 
-ul{
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 36px;
+    margin: 8px 0;
+}
+
+ul {
     list-style: none;
     display: flex;
     gap: 16px;
 }
 
-.big-text{
-    font-size: larger;
+.big-text {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
 }
 
-.small-text{
-    font-size: small;
+.subtext,
+.sub-button {
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
-.header-info{
+.header-info {
     display: flex;
     flex-direction: column;
 }
 
-.header-misc{
+.header-misc {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 150px;
     align-items: center;
 }
 
-.info{
+.info {
     text-align: center;
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
 }
 
-img{
+img {
     border: thick solid black;
     border-radius: 25%;
     height: 100px;
     width: 100px;
 }
 
-#body-list{
-    justify-content: space-evenly;
+#body-list {
+    justify-content: center;
+    gap: 50px;
 }
 
-.quote{
+.quote {
     text-align: center;
+    background-color: #E5E7EB;
 }
 
-.sign, .footer{
+.quote-text {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.sign,
+.footer {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#Niko {
+    height: 281px;
+    width: 500px;
+    border: solid black;
+    border-radius: 10px;
+}
+
+button {
+    background-color: #3882F6;
+    max-width: 75px;
+    height: auto;
+    border-radius: 5px;
 }
