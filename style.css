@@ -4,10 +4,11 @@ body {
     justify-content: space-between;
     min-height: 100vh;
     margin: 0;
-    font-family: Roboto, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Roboto, 'Arial Narrow Bold', sans-serif;
 }
 
-.header, .footer {
+.header,
+.footer {
     background-color: #1F2937;
 }
 
@@ -26,11 +27,17 @@ ul {
 }
 
 .big-text {
-    font-size: 48px;
-    font-weight: extra-bold;
-    color: #F9FAF8;
+    font-size: 64px;
+    font-weight: 800;
     margin-top: 0;
     margin-bottom: 0;
+    font-family: Pricedown, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    text-shadow:
+        -2px -2px 0 white,
+        2px -2px 0 white,
+        -2px 2px 0 white,
+        2px 2px 0 white;
 }
 
 .subtext {
@@ -56,7 +63,7 @@ ul {
 .info {
     text-align: center;
     font-size: 36px;
-    font-weight: extra-bold;
+    font-weight: 800;
     color: #1F2937;
 }
 
@@ -86,7 +93,7 @@ img {
 
 .quote-text {
     font-size: 36px;
-    font-weight: light;
+    font-weight: 300;
     font-style: italic;
     max-width: 550px;
     margin-bottom: 0;
@@ -107,10 +114,20 @@ img {
 }
 
 button {
-    background-color: #3882F6;
+    background-color: #FFAB00;
     width: 75px;
     height: 25px;
     border-radius: 5px;
+    border: #FFAB00;
+    color: #F9FAF8;
+}
+
+button:hover {
+    background-color: #da9100;
+}
+
+button:active {
+    background-color: black;
 }
 
 #IV-logo {
@@ -124,9 +141,46 @@ button {
     flex: 1 1 auto;
 }
 
-.sign{
+.sign {
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding-bottom: 18px;
+    background-image: url("images/background1.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.footer, .sign {
+    text-align: center;
+    color: #E5E7EB;
+}
+
+.header-links,
+a:link,
+a:visited {
+    color: #E5E7EB;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
+.body {
+    background-image: url("images/background.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+div.image > p {
+    color: white;
+    text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
 }
