@@ -1,6 +1,9 @@
 body{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    margin: 0;
 }
 
 .nav{
@@ -14,4 +17,48 @@ ul{
     list-style: none;
     display: flex;
     gap: 16px;
+}
+
+.big-text{
+    font-size: larger;
+}
+
+.small-text{
+    font-size: small;
+}
+
+.header-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.header-misc{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.info{
+    text-align: center;
+}
+
+img{
+    border: thick solid black;
+    border-radius: 25%;
+    height: 100px;
+    width: 100px;
+}
+
+#body-list{
+    justify-content: space-evenly;
+}
+
+.quote{
+    text-align: center;
+}
+
+.sign, .footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
