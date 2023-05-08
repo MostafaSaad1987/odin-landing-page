@@ -1,0 +1,49 @@
+body{
+    font-family: Pricedown, Roboto, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.header, .footer{
+    background-color: #1F2937;
+}
+
+.header{
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.subtext, .sub-button{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button{
+    background-color: #3882F6;
+}
+
+.info{
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+}
+
+.quote{
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
